@@ -35,17 +35,19 @@ use-a!)
 3.  **NÃO** alterar o arquivo **fazenda.json**. Em hipótese nenhuma!
 4. Seguir estritamente o .psd.
 5. Suporte para IE8+.
-6. Submeta o Pull Request! :D
+6. Não usar geradores como yeoman, procure se manter na estrutura do nosso projeto.
+7. Se for preciso modificar a estrutura e workflow, atualizar o README.
+8. Submeta o Pull Request! :D
 
 <br>
 **Pontos Extras**:
 
 1. Se possível, escreva o código com BackboneJS, se não, use VanillaJS
    mesmo que nós iremos avaliar do mesmo jeito! ;)
-   nós queremos ver seu código feito na mão!)
 2. Utilizar algum pré-processador CSS. (SASS FTW!)
 3. Testes, testes, testes!
 4. Automatizar as coisas. (Gulp? Grunt? :D)
+5. Template Engines (underscore, mustache, ou outras de sua preferência)
 
 
 
