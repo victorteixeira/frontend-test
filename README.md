@@ -42,8 +42,7 @@ use-a!)
 <br>
 **Pontos Extras**:
 
-1. Se possível, escreva o código com BackboneJS, se não, use VanillaJS
-   mesmo que nós iremos avaliar do mesmo jeito! ;)
+1. Se possível, escreva o código com BackboneJS, se não, use VanillaJS que nós iremos avaliar do mesmo jeito! ;)
 2. Utilizar algum pré-processador CSS. (SASS FTW!)
 3. Testes, testes, testes!
 4. Automatizar as coisas. (Gulp? Grunt? :D)
@@ -52,6 +51,3 @@ use-a!)
 
 
 <br><br><sub>Os dados presentes neste teste são totalmente fictícios.</sub>
-
-
-
