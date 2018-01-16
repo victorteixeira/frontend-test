@@ -29,13 +29,14 @@ Depois do seu setup você precisará seguir as seguintes instruções, para cons
 <br>
 
 ### Requisitos obrigatórios
-1. Escreva o código com BackboneJS, Angular ou VanillaJS que nós iremos avaliar do mesmo jeito! ;)
+1. Escreva o código com BackboneJS ou VanillaJS  ;)
 2. Utilizar um pré-processador CSS de sua preferência.
 3. Testes e documentação.
-4. Automatização. (Gulp? Grunt? :D)
+4. Automação de tarefas. (Gulp? Grunt? Webpack? :D)
 5. Template Engines (underscore, mustache, ou outras de sua preferência)
 6. Ser fiel ao .psd.
-7. Suporte para IE9+ (crossbrowser web / mobile - Responsivo).
-8. Não usar geradores como yeoman, procure manter a estrutura do projeto.
+7. Suporte para IE11 e multiplataforma (crossbrowser web / mobile - Responsivo).
+8. Não usar geradores como yeoman, angular-cli, react-create-app, etc..
+9. Procure manter a estrutura do projeto.
 
-<br><br><sub>Os dados presentes neste teste são totalmente fictícios.</sub>
+<sub>Os dados presentes neste teste são totalmente fictícios.</sub>
