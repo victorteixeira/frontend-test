@@ -1,5 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0; }
+
 body {
+  margin: 20px;
   text-align: center;
   font-size: 12px;
-  font-family: "Arial, sans-serif";
-}
+  font-family: 'Montserrat', sans-serif;
+  background-color: #272727; }
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 373px;
+  position: relative;
+  margin-bottom: 20px; }
+  header .logo {
+    position: absolute;
+    bottom: -10px;
+    left: 0; }
+  header h1 {
+    margin-top: 150px;
+    font-size: 30px;
+    color: #272727;
+    font-weight: bold;
+    background-color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    padding: 7px;
+    padding-left: 35px;
+    margin-left: 130px; }
+
+section {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 373px; }
+  section article.list {
+    background-color: #FFF;
+    margin-left: 31px; }
+    section article.list > div {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 9px 16px; }
+      section article.list > div:nth-child(even) {
+        background-color: #F2F1F1; }
+      section article.list > div .photo {
+        position: relative;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 4px;
+        border-color: #BA3638;
+        background-size: 90px;
+        background-repeat: no-repeat;
+        background-position: center center; }
+        section article.list > div .photo span {
+          font-weight: bold;
+          position: absolute;
+          right: -5px;
+          bottom: -5px;
+          color: #707070;
+          background-color: #FFF;
+          padding: 3px 7px;
+          border-radius: 50%;
+          border: 2px solid #707070; }
+      section article.list > div .inf {
+        flex: 1;
+        text-align: left;
+        margin-left: 20px; }
+        section article.list > div .inf .name {
+          color: #BA3638;
+          font-size: 18px;
+          font-weight: bold; }
+        section article.list > div .inf .description {
+          color: #909090;
+          font-size: 11px; }
+      section article.list > div .votes {
+        display: none;
+        position: absolute;
+        top: 20px;
+        left: 100%;
+        margin-left: 14px; }
+        @media screen and (max-width: 600px) {
+          section article.list > div .votes {
+            left: 90px; } }
+        section article.list > div .votes > div > div {
+          background-color: #BA3638;
+          text-transform: uppercase;
+          color: #FFF;
+          font-weight: bold;
+          font-size: 10px;
+          padding: 5px 10px;
+          white-space: nowrap; }
+        section article.list > div .votes > div.positive > div {
+          border-radius: 5px 0 0 0; }
+        section article.list > div .votes > div.negative > div {
+          border-radius: 0 5px 0 0; }
+        section article.list > div .votes > div > p {
+          background-color: #FFF;
+          padding: 0px;
+          font-size: 24px;
+          font-weight: bold;
+          color: #8F8F8F;
+          letter-spacing: -3px; }
+        section article.list > div .votes > div.positive > p {
+          border-radius: 0 0 0 5px; }
+        section article.list > div .votes > div.negative > p {
+          border-radius: 0 0 5px 0; }
+        section article.list > div .votes .hr {
+          background-color: #FFF;
+          border-left: 1px solid #272727;
+          width: 1px; }
+        section article.list > div .votes::before {
+          width: 0;
+          height: 0;
+          border: 6px solid transparent;
+          border-right-color: #FFF;
+          content: "";
+          top: calc(50% - 3px);
+          left: -12px;
+          position: absolute; }
+      section article.list > div:hover {
+        background-color: #BA3638; }
+        section article.list > div:hover .photo {
+          border-color: #FFF; }
+        section article.list > div:hover .inf .name {
+          color: #FFF; }
+        section article.list > div:hover .inf .description {
+          color: #330D0D; }
+        section article.list > div:hover .votes {
+          display: flex; }
+
+/*# sourceMappingURL=style.css.map */

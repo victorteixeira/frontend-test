@@ -1,14 +1,48 @@
 <!doctype html>
 <html lang="en">
   <head>
+  	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
     <meta charset="UTF-8">
 
     <title>R7 FrontEnd Test</title>
-
+    
     <link rel="stylesheet" href="stylesheets/style.css" media="all">
   </head>
   <body>
       <!-- let's code :D -->
 
+
+<header>
+	<img src="images/logo-fazenda.png" class="logo" alt="A Fazenda" title="A Fazenda">
+	<h1 id="box-name">Ranking</h1>
+</header>
+<section>
+	<article class="list" id="list"></article>
+</section>
+
+<script type="mustache/x-tmpl" id="listRanking">
+	{{#data}}
+		<div>
+			<div class="photo" style="background-image: url('{{picture}}');"><span>{{index}}</span></div>
+			<div class="inf">
+				<p class="name">{{name}}</p>
+				<p class="description">{{description}}</p>
+			</div>
+			<div class="votes">
+				<div class="positive">
+					<div>Gostam</div>
+					<p>{{percPositive}}%</p>
+				</div>
+				<p class="hr"></p>
+				<div class="negative">
+					<div>Não Gostam</div>
+					<p>{{percNegative}}%</p>
+				</div>
+			</div>
+		</div>
+	{{/data}}
+</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
     <script src="javascripts/main.js"></script> 
 </html>
